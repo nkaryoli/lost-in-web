@@ -79,16 +79,17 @@ button{
 /* seccion inicio */
 
 #inicio, #eslogan {
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #inicio{
     height: 600px;
     background-color: rgba(232,217,217,.3);
 
 }
+
 h1{
-    display: flex;
-    justify-content: center;
     font-size: 70px;
 }
 .box-text{
