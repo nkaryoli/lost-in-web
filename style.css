@@ -4,6 +4,8 @@
 {border: 1px solid red;
 } */
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -13,6 +15,7 @@ header > div {
     align-items: center;
     padding: 0px 25px;
     border: 1px solid lightgray;
+
 }
 nav {
     width: 600px;
@@ -78,10 +81,6 @@ button{
 #inicio, #eslogan {
     display: flexbox;
 }
-/* altura: 600px */
-/* color de fondo: rgba(232,217,217,.3)
-Color de fondo botón "See plans": #FB3B49
-Sombra del botón "See plans": 8px 8px 0 rgba(251,59,73,.2) */
 #inicio{
     height: 600px;
     background-color: rgba(232,217,217,.3);
@@ -122,15 +121,10 @@ h1{
     box-shadow:  8px 8px 0 rgba(251,59,73,.2);
 }
 /* seccion eslogan */
-
 #eslogan{
     padding:50px;
 }
 
-/* heading background color: rgba(255,204,53,.4)
-para transformar el fondo amarillo en dirección izquiera usa la propiedad transform: skew(9deg,0deg);
-Para conseguir la dirección opuesta al texto usa font-style: italic;
-Refina la posición de los elementos jugando con la propiedad margin. */
 .icon-hexagon{
     width: 150px;
     display: flex;
@@ -152,11 +146,6 @@ h2{
 }
 
 /* seccion beneficios */
-/* 
-Ya estás terminando, en esta sección necesitarás la siguiente información:
-color de fuente de los encabezados : #ED1C24
-Sombra del botón "Create an Org": 8px 8px 0 rgba(128,83,35,.2)
-Color de fuente del botón "Create an Org" */
 #beneficios{
     padding: 50px 0px;
 }
