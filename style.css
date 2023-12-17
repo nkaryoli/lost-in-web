@@ -13,14 +13,16 @@ header > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 25px;
-    border: 1px solid lightgray;
-
+    margin: 0px 20px;
+    padding: 0px 20px;
+    border-bottom: 1px solid lightgray;
 }
+
 nav {
     width: 600px;
     margin: 5px;
 }
+
 nav ul{
     list-style-type: none;
     display:flex;
@@ -29,10 +31,12 @@ nav ul{
     margin: 0;
     padding: 0;
 }
+
 .icon-blackheart{
     height: 20px;
     margin-right:1rem;
 }
+
 nav a{
     text-decoration: none;
     color: black;
@@ -45,62 +49,88 @@ nav a{
 .form-search{
     width: 100%;
     height: 30px;
-    margin: 5px 10px;
+    margin: 5px 0 5 10px;
     display: flex;
-    justify-content: space-around;
-    background-color:  rgba(0,0,0,.05);
+    position: relative;
 }
-input[type="search"] {
-    width: 90%;
-    padding: 0px;
+
+.form-search label{
+    background-color:  rgba(0,0,0,.05);
+    
+}
+
+.form-search img{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 0px 0px 0px 40px;
     background-color:rgba(0,0,0,.05);
     border: none;
-    background-image: url(assets/icon-lupa.webp);
-    background-size: 15px 15px;
-    background-repeat: no-repeat;
-    background-position: left 8px center;
+
 }
-button{
+
+button.red{
     background-color: #fb3e44;
     color: white;
     border: none;
+    padding: 0 15px;
 }
 
-.buttonJoin{
-    border: solid rgba(0,0,0,.1);
+.join-btn{
+    border: 2px solid rgba(0,0,0,.1);
+    height: 100%;
+    background-color: white;
+
 }
+
+.logIn-btn{
+    border: none;
+    background-color: white;
+}
+
 .container-buttons{
-    width: 25%;
+    margin-left: 25px;
+    width: 13%;
+    height: 30px;
     display: flex;
-    margin: 0px;
     justify-content: space-around;
 }
-.container-buttons a{
-    padding: 0px 23px;
+
+.container-buttons button a{
+    padding: 0px 25px;
     text-decoration: none;
     color: black;
 }
+
 /* seccion inicio */
 
 #inicio, #eslogan {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 20px;
 }
+
 #inicio{
     height: 600px;
     background-color: rgba(232,217,217,.3);
-
 }
 
 h1{
     font-size: 70px;
 }
+
 .box-text{
     width: 480px;
     margin: 0 auto;
     padding: 0px 20px 40px 20px;
 }
+
 .box-buttons{
     width: 470px;
     margin: 0 auto;
@@ -108,19 +138,23 @@ h1{
     justify-content: space-between;
     font-weight: 700;
 }
+
 .button{
     background-color: white;
 }
+
 .text-center{
     text-align: center;
     margin: 0px;
 }
+
 .button{
     margin: 15px 0px;
     padding: 10px 60px;
     text-decoration: none;
     color: black;
 }
+
 .button-see-plans{
     background-color: #FB3B49;
     color: white;
@@ -129,7 +163,9 @@ h1{
     padding: 10px 60px;
     box-shadow:  8px 8px 0 rgba(251,59,73,.2);
 }
+
 /* seccion eslogan */
+
 #eslogan{
     padding:50px;
 }
@@ -139,6 +175,7 @@ h1{
     display: flex;
     margin: 0 auto;
 }
+
 h2{
     display: flex;
     justify-content: center;
@@ -149,6 +186,7 @@ h2{
     font-style: italic;
     padding: 0px 35px;
 }
+
 .box-eslogan{
     font-size: 14px;
     width: 700px;
@@ -156,31 +194,40 @@ h2{
 }
 
 /* seccion beneficios */
+
 #beneficios{
     padding: 50px 0px;
 }
+
 .container-boxes{
     display: flex;
+    margin: 0px 300px;
 }
+
 .icon{
     width: 25px;
 }
+
 .box-qualities{
     margin:30px;
     width: 25%;
 }
+
 h3{
     font-size: 20px;
     color: #ED1C24;
 }
+
 .text-left{
     margin: 0px;
     font-size: 15px;
 }
+
 .button-create{
     display: flex;
     justify-content: center;
 }
+
 .create{
     padding: 10px 150px;
     background-color: black;
